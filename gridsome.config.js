@@ -16,9 +16,9 @@ function addStyleResource(rule) {
 }
 
 module.exports = {
-  siteName: "b4bz",
-  siteDescription: "Bastien Wirtz personal website",
-  siteUrl: "https://b4bz.io",
+  siteName: "thinkpad.io",
+  siteDescription: "Rafael's static website.",
+  siteUrl: "https://thinkpad.io",
   titleTemplate: "%s",
   plugins: [],
   chainWebpack(config) {
