@@ -4,13 +4,10 @@
       <div class="container">
         <h1 class="title is-2">Hi!<span class="emoji">👋</span></h1>
         <p class="subtitle">
-          I'm <span class="highlight">Bastien</span>. I build things, mostly
-          using code, or sometimes a hammer. <br />I may post stuff here, at a
-          very uncertain pace.
+          I'm <span class="highlight">Rafael</span>. This is my static website. <br />This runs on DigitalOcean Apps :)
           <span class="location"
             ><font-awesome :icon="['fas', 'map-marker-alt']" />
-            <strong>Earthling</strong> - born & raised in France, currently
-            living in San Francisco.</span
+            <strong>$HOME</strong> - sitting on the dock of the bay.</span
           >
         </p>
         <SafeEmail class="button is-primary is-inline-block">
@@ -19,27 +16,27 @@
 
         <div class="social-contacts">
           <a
-            href="/bastien_wirtz_resume.pdf"
+            href="/resume.pdf"
             target="_blank"
             aria-label="Curriculum Vitae"
             ><font-awesome :icon="['fas', 'file-pdf']"
           /></a>
           <a
-            href="https://github.com/bastienwirtz"
+            href="https://github.com/netstx"
             target="_blank"
             rel="noopener"
             aria-label="Follow me on Github"
             ><font-awesome :icon="['fab', 'github']"
           /></a>
           <a
-            href="https://twitter.com/babooon"
+            href="https://twitter.com/rafaelpossamai"
             target="_blank"
             rel="noopener"
-            aria-label="Follow me on Twitter"
+            aria-label="Follow me on Twitter, or not... I don't care lol"
             ><font-awesome :icon="['fab', 'twitter']"
           /></a>
           <a
-            href="https://www.linkedin.com/in/bastien-wirtz/?locale=en_US"
+            href="https://www.linkedin.com/in/rafaelpossamai/?locale=en_US"
             target="_blank"
             rel="noopener"
             aria-label="Linkedin"
@@ -53,9 +50,9 @@
       v-html="{
         '@context': 'http://schema.org',
         '@type': 'Person',
-        name: 'Bastien Wirtz',
-        jobTitle: 'Software engineer',
-        url: 'https://b4bz.io'
+        name: 'Rafael Possamai',
+        jobTitle: 'Engineer',
+        url: 'https://www.thinkpad.io'
       }"
     ></script>
   </Layout>
@@ -66,7 +63,7 @@ import SafeEmail from "~/components/SafeEmail";
 
 export default {
   metaInfo: {
-    title: "b4bz"
+    title: "thinkpad"
   },
   components: {
     SafeEmail
@@ -80,7 +77,7 @@ export default {
       " ██╔══██╗╚════██║██╔══██╗ ███╔╝  \n",
       " ██████╔╝     ██║██████╔╝███████╗\n",
       " ╚═════╝      ╚═╝╚═════╝ ╚══════╝\n\n",
-      "Hey stranger! there's not so much to see here, but feel free to check out the source here: https://github.com/bastienwirtz/b4bz.io"
+      "Hey stranger! This source code was forked from Bastien Wirtz, find it here: https://github.com/bastienwirtz/b4bz.io"
     );
   }
 };
