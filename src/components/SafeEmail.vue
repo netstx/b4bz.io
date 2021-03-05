@@ -1,9 +1,9 @@
 <template>
   <a
     href="#"
-    data-name="bastien.wirtz"
-    data-domain="gmail"
-    data-tld="com"
+    data-name="contact"
+    data-domain="thinkpad"
+    data-tld="io"
     onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;"
     aria-label="contact me!"
   >
