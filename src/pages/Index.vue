@@ -52,7 +52,7 @@
         '@type': 'Person',
         name: 'Rafael Possamai',
         jobTitle: 'Engineer',
-        url: 'https://www.thinkpad.io'
+        url: 'https://thinkpad.io'
       }"
     ></script>
   </Layout>
