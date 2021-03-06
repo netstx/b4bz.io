@@ -63,7 +63,7 @@ import SafeEmail from "~/components/SafeEmail";
 
 export default {
   metaInfo: {
-    title: "thinkpad"
+    title: "thinkpad.io"
   },
   components: {
     SafeEmail
