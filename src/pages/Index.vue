@@ -2,46 +2,18 @@
   <Layout>
     <section class="section">
       <div class="container">
-        <h1 class="title is-2">Hi!<span class="emoji">👋</span></h1>
+        <h1 class="title is-2">Hi.</h1>
         <p class="subtitle">
-          I'm <span class="highlight">Rafael</span>. This is my static website. <br />This runs on DigitalOcean Apps :)
-          <span class="location"
-            ><font-awesome :icon="['fas', 'map-marker-alt']" />
-            <strong>$HOME</strong> - sitting on the dock of the bay.</span
-          >
+          I'm <span class="highlight">Rafael</span>. This is my static website. <br />This runs on DigitalOcean Apps for now, because free.
+          <span class="location"><font-awesome :icon="['fas', 'map-marker-alt']" /> <strong>$HOME</strong> - sitting on the dock of the bay.</span>
         </p>
-        <SafeEmail class="button is-primary is-inline-block">
-          Say hello!
-        </SafeEmail>
+        <SafeEmail class="button is-primary is-inline-block"> Say hello! </SafeEmail>
 
         <div class="social-contacts">
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            aria-label="Curriculum Vitae"
-            ><font-awesome :icon="['fas', 'file-pdf']"
-          /></a>
-          <a
-            href="https://github.com/netstx"
-            target="_blank"
-            rel="noopener"
-            aria-label="Follow me on Github"
-            ><font-awesome :icon="['fab', 'github']"
-          /></a>
-          <a
-            href="https://twitter.com/rafaelpossamai"
-            target="_blank"
-            rel="noopener"
-            aria-label="Follow me on Twitter, or not... I don't care lol"
-            ><font-awesome :icon="['fab', 'twitter']"
-          /></a>
-          <a
-            href="https://www.linkedin.com/in/rafaelpossamai/?locale=en_US"
-            target="_blank"
-            rel="noopener"
-            aria-label="Linkedin"
-            ><font-awesome :icon="['fab', 'linkedin-in']"
-          /></a>
+          <a href="/resume.pdf" target="_blank" aria-label="Curriculum Vitae"><font-awesome :icon="['fas', 'file-pdf']" /></a>
+          <a href="https://github.com/netstx" target="_blank" rel="noopener" aria-label="Follow me on Github"><font-awesome :icon="['fab', 'github']" /></a>
+          <a href="https://twitter.com/rafaelpossamai" target="_blank" rel="noopener" aria-label="Follow me on Twitter, or not... I don't care lol"><font-awesome :icon="['fab', 'twitter']" /></a>
+          <a href="https://www.linkedin.com/in/rafaelpossamai/?locale=en_US" target="_blank" rel="noopener" aria-label="Linkedin"><font-awesome :icon="['fab', 'linkedin-in']" /></a>
         </div>
       </div>
     </section>
@@ -52,7 +24,7 @@
         '@type': 'Person',
         name: 'Rafael Possamai',
         jobTitle: 'Engineer',
-        url: 'https://thinkpad.io'
+        url: 'https://thinkpad.io',
       }"
     ></script>
   </Layout>
