@@ -17,22 +17,19 @@
             target="_blank"
             rel="noopener"
             aria-label="Follow me on Github"
-            ><font-awesome :icon="['fab', 'github']"
-          /></a>
+            >GitHub</a>
           <a
             href="https://twitter.com/rafaelpossamai"
             target="_blank"
             rel="noopener"
             aria-label="Follow me on Twitter, or not... I don't really use it much"
-            ><font-awesome :icon="['fab', 'twitter']"
-          /></a>
+            >Twitter</a>
           <a
             href="https://www.linkedin.com/in/rafaelpossamai/?locale=en_US"
             target="_blank"
             rel="noopener"
             aria-label="Linkedin"
-            ><font-awesome :icon="['fab', 'linkedin-in']"
-          /></a>
+            >LinkedIn</a>
         </div>
       </div>
     </section>
