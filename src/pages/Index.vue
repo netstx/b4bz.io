@@ -4,17 +4,13 @@
       <div class="container">
         <h1 class="title is-2">Hi.</h1>
         <p class="subtitle">
-          I'm <span class="highlight">Rafael</span>. Welcome to my static website.
-          <br />This runs on DigitalOcean Apps for now.
+          I'm <span class="highlight">Rafael</span>. Welcome to my temporary page, not much here for now.
+          <br />This runs on DO Apps for now...
           <span class="location"
             ><font-awesome :icon="['fas', 'map-marker-alt']" />
             <strong>$HOME</strong> - sitting on the dock of the bay.</span
           >
         </p>
-        <SafeEmail class="button is-primary is-inline-block">
-          Say hello!
-        </SafeEmail>
-
         <div class="social-contacts">
           <a
             href="https://github.com/netstx"
@@ -27,7 +23,7 @@
             href="https://twitter.com/rafaelpossamai"
             target="_blank"
             rel="noopener"
-            aria-label="Follow me on Twitter, or not... I don't care lol"
+            aria-label="Follow me on Twitter, or not... I don't really use it much"
             ><font-awesome :icon="['fab', 'twitter']"
           /></a>
           <a
@@ -72,7 +68,7 @@
         " ██╔══██╗╚════██║██╔══██╗ ███╔╝  \n",
         " ██████╔╝     ██║██████╔╝███████╗\n",
         " ╚═════╝      ╚═╝╚═════╝ ╚══════╝\n\n",
-        "Hey stranger! This source code was forked from Bastien Wirtz, find it here: https://github.com/bastienwirtz/b4bz.io"
+        "Howdy, this source code was forked from Bastien Wirtz, find it here: https://github.com/bastienwirtz/b4bz.io"
       );
     },
   };
