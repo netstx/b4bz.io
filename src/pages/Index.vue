@@ -11,27 +11,7 @@
             <strong>$HOME</strong> - sitting on the dock of the bay.</span
           >
         </p>
-        <div class="social-contacts">
-          <a
-            href="https://github.com/netstx"
-            target="_blank"
-            rel="noopener"
-            aria-label="Follow me on Github"
-            >GitHub</a>
-          <a
-            href="https://twitter.com/rafaelpossamai"
-            target="_blank"
-            rel="noopener"
-            aria-label="Follow me on Twitter, or not... I don't really use it much"
-            >Twitter</a>
-          <a
-            href="https://www.linkedin.com/in/rafaelpossamai/?locale=en_US"
-            target="_blank"
-            rel="noopener"
-            aria-label="Linkedin"
-            >LinkedIn</a>
-        </div>
-      </div>
+       </div>
     </section>
     <script
       type="application/ld+json"
