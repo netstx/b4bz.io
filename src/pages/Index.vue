@@ -5,7 +5,6 @@
         <h1 class="title is-2">Hi.</h1>
         <p class="subtitle">
           I'm <span class="highlight">Rafael</span>. Welcome to my temporary page, not much here for now.
-          <br />This runs on DO Apps for now...
           <span class="location"
             ><font-awesome :icon="['fas', 'map-marker-alt']" />
             <strong>$HOME</strong> - sitting on the dock of the bay.</span
